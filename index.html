@@ -18,7 +18,7 @@ layout: default
 
             <div class="row">
               <div class="col-sm subtitle">
-                Venice Centre for Digital and Public Humanities
+                Website of Holger Essler
               </div>
             </div>
 
@@ -28,148 +28,69 @@ layout: default
     </header>
 
     <main>
-      <!-- Seminars -->
-      <a id="seminarseries"></a>
-      <div class="seminars">
+      <!-- THV -->
+      <a id="thv"></a>
+      <div class="thv">
         <div class="container">
           <div class="row">
             <div class="col-sm title">
-              Seminars series
+              Thesaurus Herculanensium Voluminum
             </div>
           </div>
+        <div class="row">
+          <div class="col-sm link">          
+            <a id="thv-link" href="/thv">List of all edited Herculaneum papyri with links to full text.</a>
+          </div>
+        </div>
+       </div>
+      </div>
+      
+      <!-- Editio Maior -->
+      <a id="editio"></a>
+      <div class="editio">
+        <div class="container">
+
           <div class="row">
-            <div class="col-sm carousel">
-              <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
-                <div id="carousel-content" class="carousel-inner"></div>
-		<script src="/js/seminars.js"></script>
-                <script>
-                  const carousel = document.getElementById("carousel-content");
+            <div class="col-sm title">
+              Editio Maior
+            </div>
+          </div>
 
-                  const now = new Date();
-                  const year = now.getFullYear();
-                  let month = now.getMonth() + 1;
-                  if (month < 10) month = "0" + month;
-                  let day = now.getUTCDate();
-                  if (day < 10) day = "0" + day;
-
-                  // date is something like: 20200910
-                  const date = parseInt("" + year + month + day, 10);
-
-                  // we must set 'active' to the first one only. This variable is used to identify when the first one has been added.
-                  let activefound = false;
-
-                  seminars.forEach((seminar, id) => {
-                    if (seminar.datelimit < date) return;
-
-                    const div = document.createElement("div");
-                    div.setAttribute("class", "carousel-item carousel-item-main" + (!activefound ? " active" : ""));
-                    activefound = true;
-
-                    const content = document.createElement("div");
-                    content.setAttribute("class", "carousel-caption d-none d-md-block");
-                    div.appendChild(content);
-
-                    const when = document.createElement("h3");
-                    when.innerText = seminar.date;
-                    content.appendChild(when);
-
-                    const who = document.createElement("h2");
-                    who.innerText = seminar.who;
-                    content.appendChild(who);
-
-                    const from = document.createElement("h5");
-                    from.innerText = seminar.from;
-                    content.appendChild(from);
-
-                    const title = document.createElement("h4");
-                    title.innerText = seminar.title;
-                    content.appendChild(title);
-
-                    carousel.appendChild(div);
-                  });
-                </script>
-                <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+        <div class="row">
+          <div class="col-sm link">          
+            <a id="editio-link" href="/editio">Projects on digital editions of papyri from Egypt</a>
+          </div>
+        </div>
+       </div>
+      </div>
+      <!-- Disegni and Engravings -->
+      <a id="dis"></a>
+      <div class="dis">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm title">
+              Images
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-sm link">          
+            <a id="dis-link" href="/images">Drawings and engravings of Herculaneum Papyri</a>
+          </div>
+        </div>
+       </div>
+      </div>
+      <!-- Mathematical Reconstruction -->
+      <a id="mathRec"></a>
+      <div class="mathRec">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm title">
+              Mathematical Reconstruction of Papyrus Scrolls
             </div>
           </div>
           <div class="row">
             <div class="col-sm link">
-              <a id="seminar-link" href="/seminarseries">Find more information about our seminars.</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Workshops -->
-      <a id="workshops"></a>
-      <div class="workshops">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm title">
-              Workshops
-            </div>
-          </div>
-        <div class="row">
-          <div class="col-sm link">          
-            <a id="workshops-link" href="/workshops">Find more information about our workshops.</a>
-          </div>
-        </div>
-       </div>
-      </div>
-      
-      <!-- PhD events -->
-      <a id="phdevents"></a>
-      <div class="phdevents">
-        <div class="container">
-
-          <div class="row">
-            <div class="col-sm title">
-              PhD Events
-            </div>
-          </div>
-
-        <div class="row">
-          <div class="col-sm link">          
-            <a id="phdevents-link" href="/phdevents">Find more information about our PhD events.</a>
-          </div>
-        </div>
-       </div>
-      </div>
-      <!-- MA programme -->
-      <a id="maprogramme"></a>
-      <div class="maprogramme">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm title">
-              MA Programme
-            </div>
-          </div>
-        <div class="row">
-          <div class="col-sm link">          
-            <a id="maprogramme-link" href="/maprogramme">Find more information about our MA programme.</a>
-          </div>
-        </div>
-       </div>
-      </div>
-
-      <a id="summercamps"></a>
-      <div class="summercamps">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm title">
-              <a id="seminar-link" href="https://vedph.github.io/summercamp/">Summer camp 2020</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm subtitle">
-              Information and materials.
+              <a id="mathRec-link" href="/mathRec">Spreadsheet with Calculus</a>
             </div>
           </div>
 
