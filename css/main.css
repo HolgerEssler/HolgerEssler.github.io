@@ -9,6 +9,12 @@ p {
   text-align: justify;
 }
 
+li {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
 .nav-link {
   font-size: 30px;
 }
