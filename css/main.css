@@ -31,7 +31,7 @@ p {
 
 .frontpage {
   /* The image used */
-  background-image: url("../images/drone02.jpeg");
+  background-image: url("../images/800x409_wordcloud.jpeg");
 
   /* Full height */
   height: 100%;
@@ -77,7 +77,7 @@ p {
 
 .min-frontpage {
   /* The image used */
-  background-image: url("../images/drone02.jpeg");
+  background-image: url("../images/800x409_wordcloud.jpeg");
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@ p {
 }
 
 .thv {
-  background-image: url("../images/background2.jpeg");
+  background-image: url("../images/background.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -295,7 +295,7 @@ footer {
   text-align: center;
 
   /* The image used */
-  background-image: url("../images/drone02.jpeg");
+  background-image: url("../images/800x409_wordcloud.jpeg");
 
   /* Center and scale the image nicely */
   background-position: center;
