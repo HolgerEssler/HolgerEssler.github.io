@@ -93,11 +93,9 @@ li {
 }
 
 .thv {
-  background-image: url("../images/background.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-color: #233565;
+    min-height: 8em;
+  }
 
 .thv .title {
   margin-top: 1em;
@@ -181,7 +179,7 @@ li {
 }
 
 .dis {
-  background-color: #d3413f;
+  background-color: ##233565;;
   min-height: 8em;
 }
 
@@ -223,7 +221,7 @@ li {
 
 
 .mathRec {
-  background-color: #d3413f;
+  background-color: #7b69b6;
   min-height: 8em;
 }
 
