@@ -178,12 +178,12 @@ li {
   }
 }
 
-.student {
+.stud {
   background-color: #233565;
   min-height: 8em;
 }
 
-.student .title {
+.stud .title {
   margin-top: 1em;
   text-align: center;
   color: white;
@@ -191,7 +191,7 @@ li {
   text-transform: uppercase;
 }
 
-.student .subtitle {
+.stud .subtitle {
   margin-top: 0.8em;
   margin-bottom: 100px;
   text-align: center;
@@ -201,20 +201,20 @@ li {
   font-size: 25px;
 }
 
-.student .link {
+.stud .link {
   text-align: center;
   color: #d3413f;
   font-size: 0.6em;
   margin-bottom: 1em;
 }
 
-.student p {
+.stud p {
   font-family: sans-serif;
   font-size: 14px;
 }
 
 @media screen and (max-width: 500px) {
-  .student {
+  .stud {
     font-size: 0.8em;
   }
 }
