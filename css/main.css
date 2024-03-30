@@ -307,6 +307,20 @@ footer {
   background-size: cover;
 }
 
+.img-1 {
+   float: left;
+    }
+
+.img-2 {
+    display: block;
+    position: relative;
+    left: -50%;
+}
+
+.img-3 {
+   float: right;
+    }
+
 footer a {
   color: #dddddd;
 }
