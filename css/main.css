@@ -312,20 +312,6 @@ footer {
 footer a {
   color: #dddddd;
 }
-
-footer .img-1 {
-   float: left;
-    }
-
-footer .img-2 {
-    display: block;
-    position: relative;
-    left: -50%;
-}
-
-footer .img-3 {
-   float: right;
-    }
     
 .carousel-item {
   border-style: solid;
