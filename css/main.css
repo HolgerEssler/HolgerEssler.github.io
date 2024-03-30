@@ -311,6 +311,18 @@ footer a {
   color: #dddddd;
 }
 
+.custom-footer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
+    
+    img {
+        max-width: 10%; 
+        min-width: 150px; 
+        opacity: 1;
+    }
+
 .carousel-item {
   border-style: solid;
   border-color: #000000;
