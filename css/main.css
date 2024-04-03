@@ -10,12 +10,23 @@ p {
   text-align: justify;
 }
 
-ol.thv {
+.thv ol{
   font-family: 'Open Sans' sans-serif;
   font-size: 14px !important;
   text-align: left;
 }
 
+.thv ul{
+    list-style: none;
+} 
+
+.thv li{
+    list-style-position: outside;
+    text-indent: -1em;
+  font-family: 'Open Sans' sans-serif;
+    font-size: 14px !important;
+  text-align: left;
+}
 
 .nav-link {
   font-size: 30px;
@@ -94,10 +105,6 @@ ol.thv {
   height: 106px;
 }
 
-.thv {
-  background-color: #233565;
-    min-height: 8em;
-  }
 
 .thv .title {
   margin-top: 1em;
@@ -106,12 +113,6 @@ ol.thv {
   font-size: 1.5em;
   text-decoration: underline;
   text-transform: uppercase;
-}
-
-.thv .link {
-  text-align: center;
-  font-size: 0.6em;
-  margin-bottom: 1em;
 }
 
 .thv .carousel {
