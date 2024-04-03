@@ -136,9 +136,6 @@ h6,
     font-weight: 600;
 }
 
-.thv ul{
-    list-style: none;}
-
 
 @media screen and (max-width: 500px) {
   .thv .title {
