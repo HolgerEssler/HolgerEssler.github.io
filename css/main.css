@@ -10,23 +10,20 @@ p {
   text-align: justify;
 }
 
-.thv ol{
-  font-family: 'Open Sans' sans-serif;
-  font-size: 14px !important;
-  text-align: left;
-}
-
-.thv ul{
-    list-style: none;
-} 
-
-.thv li{
+ol.thv li{
     list-style-position: outside;
-    text-indent: -1em;
   font-family: 'Open Sans' sans-serif;
     font-size: 14px !important;
   text-align: left;
 }
+
+
+ul.thv li{
+        list-style-position: none;
+  text-align: left;
+} 
+
+
 
 .nav-link {
   font-size: 30px;
