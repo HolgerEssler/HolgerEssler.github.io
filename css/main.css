@@ -10,15 +10,6 @@ p {
   text-align: justify;
 }
 
-ul li{
-    list-style-type: disc;
-    list-style-position: inside;
-    padding: 10px 0 10px 20px;
-    text-indent: -1em;
-  font-family: 'Open Sans' sans-serif;
-  font-size: 14px;
-  text-align: left;
-}
 
 .nav-link {
   font-size: 30px;
@@ -144,6 +135,15 @@ h6,
 .h6{
     font-weight: 600;
 }
+
+.thv ul li{
+    list-style-type: none;
+    list-style-position: outside;
+    text-indent: -1em;
+  font-family: 'Open Sans' sans-serif;
+  text-align: left;
+}
+
 
 @media screen and (max-width: 500px) {
   .thv .title {
