@@ -19,7 +19,7 @@ ol.thv li{
 
 
 ul.thv li{
-        list-style-position: none;
+  list-style: none;
   text-align: left;
 } 
 
