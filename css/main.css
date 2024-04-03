@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Oswald', serif;
   font-size: 48px;
@@ -24,11 +25,11 @@ li {
 }
 
 .top-nav-collapse {
-  background-image: url("../images/background.jpeg") !important;
+  background-color: #464a56 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background-image: url("../images/background.jpeg") !important;
+  background-color: #464a56 !important;
 }
 
 .navbar {
@@ -122,6 +123,24 @@ li {
   font-size: 25px;
 }
 
+.thv h1,
+h2,
+h3,
+h4,
+.h1,
+.h2,
+.h3,
+.h4{
+    font-weight: 500;
+}
+
+.thv h5,
+h6,
+.h5,
+.h6{
+    font-weight: 600;
+}
+
 @media screen and (max-width: 500px) {
   .thv .title {
     margin-top: 1em;
@@ -136,6 +155,7 @@ li {
     display: none;
   }
 }
+
 
 .editio {
   background-color: #7b69b6;
@@ -290,14 +310,14 @@ footer {
   color: #dddddd;
 
   text-align: center;
-
-  /* The image used */
+  background-color: #464a56;
+  /* The image used
   background-image: url("../images/background.jpeg");
 
-  /* Center and scale the image nicely */
+   Center and scale the image nicely 
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 footer a {
