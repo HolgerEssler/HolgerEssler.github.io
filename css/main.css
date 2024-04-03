@@ -10,6 +10,12 @@ p {
   text-align: justify;
 }
 
+ol.thv {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 14px !important;
+  text-align: left;
+}
+
 
 .nav-link {
   font-size: 30px;
@@ -135,6 +141,9 @@ h6,
 .h6{
     font-weight: 600;
 }
+
+.thv ul{
+    list-style: none;}
 
 
 @media screen and (max-width: 500px) {
