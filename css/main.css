@@ -194,6 +194,14 @@ h6,
   font-size: 14px;
 }
 
+.editio ul, ol{
+    list-style-position: outside;
+  font-family: 'Open Sans' sans-serif;
+    font-size: 14px !important;
+  text-align: left;
+}
+
+
 @media screen and (max-width: 500px) {
   .editio
    {
